@@ -1,0 +1,14 @@
+[package]
+name = "jemalloc_viz"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.58"
+crossterm = "0.24.0"
+jemalloc-ctl = "0.5.0"
+jemallocator = "0.5.0"
+ringbuffer = "0.8.4"
+tui = "0.18.0"
